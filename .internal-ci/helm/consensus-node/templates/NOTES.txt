@@ -14,4 +14,4 @@
 #+#    #+# #+#    #+#    #+#     #+#   #+#+#                        
  ########   ######## ########### ###    ####   
 
-MobileCoin Node deployment completed successfully.
+v4.1.0 MobileCoin Node deployment completed successfully.
