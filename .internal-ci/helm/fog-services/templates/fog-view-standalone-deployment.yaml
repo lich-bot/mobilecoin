@@ -100,7 +100,7 @@ spec:
         - name: MC_SHARDING_STRATEGY
           value: 0-500000
         - name: MC_TELEMETRY
-          value: true
+          value: "true"
         # Values take from fog-view ConfigMap
         - name: MC_OMAP_CAPACITY
           value: "4194304"
