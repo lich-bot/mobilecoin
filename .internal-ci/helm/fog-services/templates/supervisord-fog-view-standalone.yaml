@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: {{ include "fogServices.fullname" . }}-supervisord-fog-view
+  name: {{ include "fogServices.fullname" . }}-supervisord-fog-view-standalone
   labels:
     {{- include "fogServices.labels" . | nindent 4 }}
 data:
