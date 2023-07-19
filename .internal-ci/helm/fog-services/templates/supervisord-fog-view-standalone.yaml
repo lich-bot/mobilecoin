@@ -11,7 +11,7 @@ data:
     priority=100
     environment=MC_SENTRY_DSN="%(ENV_FOG_VIEW_SENTRY_DSN)s"
     command=/usr/bin/fog_view_server
-      --client-listen-uri insecure-fog-view://0.0.0.0:3225/
+      --client-listen-uri insecure-fog-view-store://0.0.0.0:3225/?responder-id={{ include "fogServices.fogPublicFQDN" . }}:443
       --client-responder-id "%(ENV_CLIENT_RESPONDER_ID)s"
       --ias-spid %(ENV_IAS_SPID)s
       --ias-api-key %(ENV_IAS_API_KEY)s
