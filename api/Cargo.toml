@@ -30,7 +30,7 @@ crc = "3.0.0"
 displaydoc = { version = "0.2", default-features = false }
 mc-sgx-core-types = "0.10.1"
 mc-sgx-dcap-types = "0.10.1"
-protobuf = "2.27.1"
+protobuf = "3.3.0"
 
 curve25519-dalek = { version = "4.1.1", default-features = false }
 

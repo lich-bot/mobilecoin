@@ -41,7 +41,7 @@ grpcio = "0.13"
 hex = { version = "0.4", features = ["serde"] }
 mc-attestation-verifier = "0.4.2"
 pem = "3.0"
-protobuf = "2.27.1"
+protobuf = "3.3.0"
 rand = "0.8"
 serde = "1"
 serde_json = "1.0"
